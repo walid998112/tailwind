@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>portfolio</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+      <header class="bg-gray-800 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+          <h1 class="text-xl font-bold">Walid Ouahrani</h1>
+          <nav class="space-x-4">
+            <a href="#home" class="hover:text-gray-400">Home</a>
+            <a href="#projects" class="hover:text-gray-400">Projects</a>
+            <a href="#contact" class="hover:text-gray-400">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        <div style="background-color: #D5C0A8;" class="text-center bg-opacity-50 p-6 rounded-lg">
+          <h2 class="text-4xl md:text-6xl font-bold text-white">Welcome to My Portfolio</h2>
+          <p class="text-lg md:text-xl text-gray-300 mt-4">I'm a Web Developer passionate about building beautiful websites.</p>
+        </div>
+      </section>
+      <section id="skills" class="container mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold text-center mb-8">My Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="bg-white rounded-lg shadow p-4 text-center">
+            <p class="text-xl font-semibold">HTML</p>
+          </div>
+          <div class="bg-white rounded-lg shadow p-4 text-center">
+            <p class="text-xl font-semibold">CSS</p>
+          </div>
+          <div class="bg-white rounded-lg shadow p-4 text-center">
+            <p class="text-xl font-semibold">JavaScript</p>
+          </div>
+          <div class="bg-white rounded-lg shadow p-4 text-center">
+            <p class="text-xl font-semibold">Tailwind CSS</p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="bg-gray-200 py-16 px-6">
+        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="project1-image.jpg" alt="Project 1" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Gaming site</h3>
+              <p class="text-gray-700">you can download any game you want</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="project2-image.jpg" alt="Project 2" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">gaming E-commerce site</h3>
+              <p class="text-gray-700">buy electronics.</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="project3-image.jpg" alt="Project 3" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Istore virtual assistant</h3>
+              <p class="text-gray-700">the site will tell you your apple product that suites your needs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="container mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+        <form class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+            <input type="text" id="name" class="w-full border border-gray-300 rounded-lg px-4 py-2" placeholder="Your Name">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+            <input type="email" id="email" class="w-full border border-gray-300 rounded-lg px-4 py-2" placeholder="Your Email">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+            <textarea id="message" class="w-full border border-gray-300 rounded-lg px-4 py-2" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-gray-800 text-white font-bold py-2 rounded-lg hover:bg-gray-700">Send Message</button>
+        </form>
+      </section>
+      <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+          <div class="flex justify-center space-x-4 mb-4">
+            <a href="#" class="hover:text-gray-400">Facebook</a>
+            <a href="#" class="hover:text-gray-400">Twitter</a>
+            <a href="#" class="hover:text-gray-400">LinkedIn</a>
+          </div>
+          <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+      </footer>
+    
+    </body>
+    </html>
+     
+</body>
+</html>
